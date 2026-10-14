@@ -1,61 +1,57 @@
-# Sliding Puzzle
+# 🏎️ Grand Prix
 
-## Project Description
-Sliding Puzzle is a browser-based puzzle game built using HTML, CSS, and JavaScript.
-The game displays a scrambled image divided into square tiles, with one empty space. The player moves adjacent tiles into the empty space to restore the original image.
-The goal is to solve the puzzle using as few moves as possible.
+A fast, top-down racing game built with **HTML5, CSS3, and vanilla JavaScript** (Canvas 2D). Dodge incoming traffic, collect nitro cans, and reach the finish line before you run out of lives!
 
-## How to Play
-1. Start a new game.
-2. Choose a difficulty level.
-3. Click a tile next to the empty space to move it.
-4. Continue moving tiles until the original image is restored.
-5. Complete the puzzle to win the game.
+**Play it live:** `https://<your-username>.github.io/<your-repo-name>/`
 
-## Core Features
-* Interactive sliding puzzle.
-* Move counter.
-* Win condition.
-* Restart game functionality.
-* Multiple difficulty levels.
 
-## Extra Features
-* High Score tracking.
-* Dark and Light Mode.
-* Sound Effects.
-* Tile movement animations.
 
-## User Stories
+---
 
-### Core Gameplay
-* As a player, I want to start a new game so that I can play the puzzle.
-* As a player, I want to move a tile next to the empty space so that I can rearrange the image.
-* As a player, I want to see the number of moves I have made so that I can track my progress.
-* As a player, I want to know when I have solved the puzzle so that I can see that I have won.
-* As a player, I want to restart the game so that I can try again.
-* As a player, I want to select a difficulty level so that I can choose the challenge I prefer.
+## 🎮 How to Play
 
-### Extra Features
-* As a player, I want my best result to be saved so that I can try to beat my previous record.
-* As a player, I want to switch between dark and light mode so that I can customize the appearance.
-* As a player, I want to enable or disable sound effects so that I can control the audio.
-* As a player, I want tile movements to be animated so that the game feels smoother.
+| Action | Keyboard | Touch / Mobile |
+| --- | --- | --- |
+| **Steer** | Arrow keys or `A` / `D` | Left / Right pads (`<` `>`) |
+| **Accelerate / Brake** | `W` / `S` | Up / Down pads (`^` `v`) |
+| **Nitro Boost** | `Space` | `NITRO` pad |
+| **Pause / Resume** | `P` or `Esc` | `II` button |
 
-## Technologies Used
-* HTML
-* CSS
-* JavaScript
-* DOM Manipulation
-* Git and GitHub
-* GitHub Pages
+- **Win Condition:** Reach the distance goal for your chosen difficulty.
+- **Lose Condition:** Crash into traffic until all your lives are gone.
+- **Scoring System:** Passing a car gives **+10 pts**, collecting a nitro can gives **+25 pts** and **+1 nitro charge** (max 3).
 
-## Getting Started
-1. Clone or download the repository.
-2. Open index.html in a web browser.
-3. Start a new game and solve the puzzle.
+---
 
-## Live Demo
-Add the GitHub Pages URL after deployment.
+## ✨ Features
 
-## Author
-Sayed Jaafar Ali Majeed Khalifat
+- **Three Difficulty Levels:** Easy, Normal, and Hard modes adjusting distance goals, top speed, traffic density, and starting lives.
+- **Nitro Boost System:** Collect nitro cans on the track and activate hyper-speed bursts with flame animations.
+- **High Score Tracking:** Persistent best scores saved locally via browser `localStorage`.
+- **Theme Switcher:** Seamless toggle between Dark and Light mode.
+- **Pause & Resume:** Take a break anytime during your race.
+- **Web Audio API Sound Effects:** Fully synthesized engine hums, crash impacts, and UI sounds without external audio files.
+- **Rich Animations:** Countdown timer, screen shake, crash sparks, nitro flames, and an animated progress bar.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5 Canvas** (Game rendering engine)
+- **CSS3 Custom Properties** (Styling & Dynamic Themes)
+- **JavaScript (ES6+)** (Game logic, physics & state management)
+- **Web Audio API** (Procedural sound effects)
+- **Git & GitHub Pages** (Version control and automated deployment)
+
+---
+
+## 📂 Project Structure
+
+```text
+grand-prix/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── app.js
+└── README.md
