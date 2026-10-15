@@ -22,7 +22,7 @@
             </div>
             <div>
                 <small>SPEED</small>
-                <b class="cyan"><span id="speed"></span>KM/H</b>
+                <b class="cyan"><span id="speed">0</span>KM/H</b>
             </div>
 
             <div>
@@ -49,21 +49,29 @@
             <div id="overlay">
                 <h1 id="overlay-title">GRAND PRIX</h1>
                 <p id="overlay-text"></p>
-                <select>
+
+                <select id="difficulty" aria-label="Difficulty">
                     <option value="easy">Easy</option>
                     <option value="normal" selected>Normal</option>
                     <option value="hard">Hard</option>
                 </select>
+
                 <button id="start">START ENGINE</button>
             </div>
         </section>
 
+        <section class="pad">
+            <button data-key="left">&lsaquo;</button>
+            <button data-key="right">&rsaquo;</button>
+            <button data-key="nitro" class="nitro">NITRO <span id="nitro">0</span></button>
+            <button data-key="up">&and;</button>
+            <button data-key="down">&or;</button>
+        </section>
+
+        <p class="help">Steer: arrows / A D &middot; Speed: W S &middot; Nitro: Space &middot; Pause: P</p>
+
 
     </main>
-
-
-
-
 </body>
 
 </html>

@@ -51,7 +51,6 @@ A fast, top-down racing game built with **HTML5, CSS3, and vanilla JavaScript** 
 grand-prix/
 ├── index.html
 ├── style.css
-│   
 ├── app.js
 │   
 └── README.md
