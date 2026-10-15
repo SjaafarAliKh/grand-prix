@@ -48,6 +48,36 @@ body {
   gap: 12px;
 }
 
+/* ==========================================
+   HUD (Distance, Speed, Lives)
+   ========================================== */
+
+.hud {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.hud small {
+  font-size: 0.65rem;
+  color: var(--muted);
+  display: block;
+}
+
+.hud b {
+  font-size: 0.95rem;
+}
+
+.cyan {
+  color: var(--accent);
+}
+
+
 
 
 
