@@ -1,0 +1,27 @@
+/* ==========================================
+   CSS Custom Properties (Themes)
+   ========================================== */
+:root {
+  --bg: #0f172a;
+  --card-bg: #1e293b;
+  --text: #f8fafc;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --accent-hover: #0ea5e9;
+  --border: #334155;
+  --track-bg: #111;     /* track background in the default (dark) mode */
+  --road-bg: #222;
+}
+
+body.light {
+  /* Light mode only changes the track (desert sand colors); the UI stays dark */
+  --track-bg: #e3d19c;
+  --road-bg: #d4be88;
+}
+
+
+
+
+
+
+
