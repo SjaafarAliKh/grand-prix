@@ -19,6 +19,40 @@ body.light {
   --road-bg: #d4be88;
 }
 
+/* ==========================================
+   Global Resets & Layout
+   ========================================== */
+
+   * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.game {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+
+
+
+
 
 
 
