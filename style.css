@@ -236,6 +236,50 @@ canvas {
   color: #fff;
 }
 
+/* ==========================================
+   Touch Controls Pad (one row of 5 buttons)
+   ========================================== */
+.pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.6fr 1fr 1fr;
+  gap: 8px;
+}
+
+.pad button {
+  background: var(--card-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 14px 0;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;             /* no text selection on long press */
+  touch-action: manipulation;    /* no double-tap zoom on phones */
+}
+
+.pad button:active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.pad .nitro {
+  background: #e11d48;
+  color: #fff;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.pad .nitro:active {
+  background: #be123c;
+}
+
+.help {
+  font-size: 0.65rem;
+  text-align: center;
+  color: var(--muted);
+}
 
 
 
