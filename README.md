@@ -50,8 +50,8 @@ A fast, top-down racing game built with **HTML5, CSS3, and vanilla JavaScript** 
 ```text
 grand-prix/
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── app.js
+├── style.css
+│   
+├── app.js
+│   
 └── README.md
